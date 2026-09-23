@@ -12,11 +12,13 @@
 
 ## 🚀 التثبيت
 
+```bash
 pkg install python
 pip install flask
 git clone https://github.com/ayman7990-tech/ayman-suite.git
 cd ayman-suite
 python suite.py
+```
 
 افتح: http://localhost:7500
 
@@ -35,10 +37,12 @@ python suite.py
 
 Unified dashboard for Termux apps.
 
+```bash
 git clone https://github.com/ayman7990-tech/ayman-suite.git
 cd ayman-suite
 pip install flask
 python suite.py
+```
 
 Open: http://localhost:7500
 
