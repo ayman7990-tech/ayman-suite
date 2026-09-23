@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+logs/*.log
+logs/pids/
+*.db
+*.sqlite
+.vscode/
+.idea/
+.DS_Store
+*.pid

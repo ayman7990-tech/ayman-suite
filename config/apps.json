@@ -1,0 +1,62 @@
+{
+  "suite_name": "Ayman Termux Suite",
+  "version": "1.0.0",
+  "author": "Ayman (ayman7990-tech)",
+  "dashboard_port": 7500,
+  "apps": [
+    {
+      "id": "card-extractor",
+      "name": "📸 مستخرج أكواد الشحن",
+      "description": "استخراج أكواد الشحن من الصور",
+      "port": 8910,
+      "path": "apps/card-extractor",
+      "entry": "app.py",
+      "enabled": true
+    },
+    {
+      "id": "study-tracker",
+      "name": "📚 متتبع المذاكرة",
+      "description": "تتبع ساعات المذاكرة والمواعيد",
+      "port": 8890,
+      "path": "apps/study-tracker",
+      "entry": "server.py",
+      "enabled": true
+    },
+    {
+      "id": "expense-tracker",
+      "name": "💰 مذكرة المصاريف",
+      "description": "تتبع المصاريف اليومية",
+      "port": 8901,
+      "path": "apps/expense-tracker",
+      "entry": "server.py",
+      "enabled": true
+    },
+    {
+      "id": "control-center",
+      "name": "🎛️ مركز التحكم",
+      "description": "لوحة تحكم موحدة",
+      "port": 7777,
+      "path": "apps/control-center",
+      "entry": "server.py",
+      "enabled": true
+    },
+    {
+      "id": "media-toolkit",
+      "name": "🎨 معالج الوسائط",
+      "description": "أدوات الوسائط والصور",
+      "port": 8902,
+      "path": "apps",
+      "entry": "media-toolkit.py",
+      "enabled": true
+    },
+    {
+      "id": "scripts-library",
+      "name": "📜 مكتبة السكربتات",
+      "description": "مكتبة سكربتات جاهزة",
+      "port": 6600,
+      "path": "apps",
+      "entry": "scripts-library.py",
+      "enabled": true
+    }
+  ]
+}
